@@ -1,5 +1,7 @@
+import ProductDetails from './pages/ProductDetails';
+
 const App: React.FC = () => {
-  return <h1>landing </h1>;
+  return <ProductDetails />;
 };
 
 export default App;
