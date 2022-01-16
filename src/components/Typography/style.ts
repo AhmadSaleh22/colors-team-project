@@ -25,7 +25,6 @@ const Wrapper = styled.div<any>`
   color: ${props => props?.color || props.theme?.Typography.color};
   font-size: ${props =>
     props?.fontSize || getTypographySize(props?.variant || '')};
-  width: ${props => props?.width || '100%'};
   line-height: ${props => (props?.bold ? 1.1 : 1.25)};
   font-family: ${props => props?.fontFamily || 'PlusJakartaSans'};
   ${props =>

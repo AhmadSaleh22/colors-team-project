@@ -6,7 +6,6 @@ const ProductScreen: React.FC = () => {
     <>
       <ProductOverview />
       <Specifications />
-      <h1>test</h1>
     </>
   );
 };
