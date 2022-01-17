@@ -1,4 +1,4 @@
-import React, { ReactNode, CSSProperties } from 'react';
+import { ReactNode, CSSProperties } from 'react';
 
 export interface IStyleButton {
   style?: CSSProperties;
@@ -16,4 +16,5 @@ export interface IStyleButton {
   padding?: string;
   letterSpace?: string;
   margin?: string;
+  brand?: boolean;
 }

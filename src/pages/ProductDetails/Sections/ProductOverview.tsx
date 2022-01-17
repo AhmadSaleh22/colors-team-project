@@ -87,16 +87,24 @@ const ProductOverview: React.FC = () => {
               256GB
             </Typography>
           </Container>
-          <Container margin="1em 0" justify-Content="space-between">
+          <Container margin="1em 0 1em 0" justify-Content="space-between">
             <Container>
-              <Button color="#FED6BC">64GB</Button>
-              <Button color="#D7D7D7">128GB</Button>
-              <Button color="#6B7B73">256GB</Button>
+              <Button margin="0 1em 0 0" padding=".6em 2em">
+                64GB
+              </Button>
+              <Button margin="0 1em" padding=".6em 2em">
+                128GB
+              </Button>
+              <Button margin="0 1em" padding=".6em 2em">
+                256GB
+              </Button>
             </Container>
-            <Button width="2rem">
+            <Button width="3rem" margin="0 1em">
               <Icon size="20" icon={<BsBookmarks />} />
             </Button>
-            <Button color="#6B7B73">256GB</Button>
+            <Button brand padding=".8em" width="15em">
+              Add To Cart
+            </Button>
           </Container>
           <Typography variant="p" line-Height={1.5} text-Align="justify">
             Et placeat odio voluptas saepe ullam enim sed. Sint rem sint. Ex
