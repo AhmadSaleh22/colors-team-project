@@ -106,7 +106,12 @@ const ProductOverview: React.FC = () => {
               Add To Cart
             </Button>
           </Container>
-          <Typography variant="p" line-Height={1.5} text-Align="justify">
+          <Typography
+            variant="p"
+            line-Height={1.5}
+            text-Align="justify"
+            font-Family="Mulish"
+          >
             Et placeat odio voluptas saepe ullam enim sed. Sint rem sint. Ex
             enim aperiam consequatur. Est temporibus ab. Pariatur aut ut
             temporibus culpa. Aut adipisci veniam esse. Quidem dolor corporis
