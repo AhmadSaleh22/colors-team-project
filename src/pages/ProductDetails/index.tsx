@@ -1,7 +1,7 @@
 import ProductOverview from './Sections/ProductOverview';
 import Specifications from './Sections/Specifications';
 
-const ProductScreen: React.FC = () => {
+export const index: React.FC = () => {
   return (
     <>
       <ProductOverview />
@@ -9,5 +9,3 @@ const ProductScreen: React.FC = () => {
     </>
   );
 };
-
-export default ProductScreen;
